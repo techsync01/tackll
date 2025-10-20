@@ -9,6 +9,7 @@ import androidx.compose.runtime.setValue
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.Alignment
 import com.tackll.ui.screens.*
+import com.tackll.ui.screens.create.createParent.screen.CreateScreen
 import com.tackll.ui.screens.flicks.FlicksScreen
 import com.tackll.ui.screens.home.homeScreen.screens.HomeScreen
 
