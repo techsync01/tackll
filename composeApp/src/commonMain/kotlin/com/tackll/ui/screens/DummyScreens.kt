@@ -8,5 +8,5 @@ import androidx.compose.ui.Modifier
 
 //@Composable fun FlicksScreen() { Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text("Flicks Screen") } }
 //@Composable fun CreateScreen() { Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text("Create Screen") } }
-@Composable fun ExploreScreen() { Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text("Explore Screen") } }
+//@Composable fun ExploreScreen() { Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text("Explore Screen") } }
 @Composable fun ProfileScreen() { Box(Modifier.fillMaxSize(), contentAlignment = Alignment.Center) { Text("Profile Screen") } }
