@@ -5,7 +5,7 @@ import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.foundation.layout.*
 import androidx.compose.ui.Modifier
-import com.tackll.ui.screens.ProfileScreen
+//import com.tackll.ui.screens.ProfileScreen
 import com.tackll.ui.screens.create.createParent.screen.CreateScreen
 import com.tackll.ui.screens.explore.screen.ExploreScreen
 import com.tackll.ui.screens.explore.screen.ExploreSeeMoreScreen
@@ -13,6 +13,7 @@ import com.tackll.ui.screens.explore.screen.ExploreSeeMoreScreen
 import com.tackll.ui.screens.flicks.FlicksScreen
 import com.tackll.ui.screens.home.homeScreen.screens.HomeScreen
 import com.tackll.ui.screens.home.homeScreen.components.FloatingFilterButton
+import com.tackll.ui.screens.profile.screen.ProfileScreen
 
 @Composable
 fun NavGraph(
