@@ -3,12 +3,12 @@ package com.tackll.ui.screens.explore.model
 
 
 
-private const val IMG1 = "https://placehold.co/800x450?text=Fitness+1"
-private const val IMG2 = "https://placehold.co/800x450?text=Cooking+1"
-private const val IMG3 = "https://placehold.co/800x450?text=Dance+1"
-private const val IMG4 = "https://placehold.co/800x450?text=Trending+1"
-private const val IMG5 = "https://placehold.co/800x450?text=ForYou+1"
-private const val IMG6 = "https://placehold.co/800x450?text=Recent+1"
+private const val IMG1 = "https://picsum.photos/400/200"
+private const val IMG2 = "https://picsum.photos/seed/weightlifting2/400/200"
+private const val IMG3 = "https://picsum.photos/seed/dumbbells5/400/200"
+private const val IMG4 = "https://picsum.photos/seed/benchpress7/400/200"
+private const val IMG5 = "https://picsum.photos/seed/fitnesschallenge10/400/200"
+private const val IMG6 = "https://picsum.photos/seed/cardio8/400/200"
 private const val AVA1 = "https://placehold.co/100x100?text=A1"
 private const val AVA2 = "https://placehold.co/100x100?text=A2"
 private const val AVA3 = "https://placehold.co/100x100?text=A3"

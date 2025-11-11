@@ -14,6 +14,7 @@ import androidx.compose.ui.*
 import androidx.compose.ui.unit.dp
 import coil3.compose.AsyncImage
 import coil3.compose.rememberAsyncImagePainter
+import com.tackll.common.video.VideoPlayer
 import com.tackll.ui.screens.flicks.comment.commentScreen.CommentBottomSheet
 import com.tackll.ui.screens.flicks.shareScreen.screen.ShareBottomSheet
 
@@ -34,10 +35,19 @@ fun FlickItem(flick: Flick) {
 
     Box(modifier = Modifier.fillMaxSize()) {
         // Video placeholder
-        Image(
-            painter = rememberAsyncImagePainter(flick.videoUrl),
-            contentDescription = null,
-            modifier = Modifier.fillMaxSize()
+//        Image(
+//            painter = rememberAsyncImagePainter(flick.videoUrl),
+//            contentDescription = null,
+//            modifier = Modifier.fillMaxSize()
+//        )
+        // ✅ Replace Image with actual Video Player
+        VideoPlayer(
+            url = flick.videoUrl,
+            modifier = Modifier.fillMaxSize(),
+            autoPlay = true, // autoplay like reels
+            loop = true,
+            showProgressAlways=true,
+            thumbnail=flick.thumbnailUrl,
         )
 
         // Right-side actions
@@ -122,6 +132,6 @@ fun FlickItem(flick: Flick) {
         }
 
         // Progress bar
-        VideoProgressBar(modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 35.dp))
+//        VideoProgressBar(modifier = Modifier.align(Alignment.BottomCenter).padding(bottom = 35.dp))
     }
 }

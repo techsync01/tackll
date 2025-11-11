@@ -12,6 +12,11 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+        maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
+        maven("https://coil-kt.github.io/coil/maven-snapshots/")
+    }
+    plugins {
+        id("org.jetbrains.kotlin.plugin.serialization") version "2.0.20"
     }
 }
 
@@ -25,6 +30,7 @@ dependencyResolutionManagement {
             }
         }
         mavenCentral()
+        maven("https://s01.oss.sonatype.org/content/repositories/snapshots/")
     }
 }
 
